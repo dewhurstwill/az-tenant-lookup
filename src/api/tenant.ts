@@ -8,8 +8,7 @@ import { ParsedEndpoint } from '../types';
 // Helpers
 import {  
   addItemToCache, 
-  checkCache, 
-  checkCacheById,
+  checkCache,
   parseTokenEndpoint
 } from '../helpers';
 
