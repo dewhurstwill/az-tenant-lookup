@@ -23,7 +23,6 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
-    "lodash": "^4.17.21",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
@@ -38,6 +37,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.24.0",
     "jest": "^27.0.6",
+    "lodash": "^4.17.21",
     "nodemon": "^2.0.12",
     "supertest": "^6.1.5",
     "ts-jest": "^27.0.4",
