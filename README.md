@@ -5,7 +5,7 @@ Ever needed to get the tenantId based on the Azure AD domain? This API makes tha
 ## Basic/Dev Use
 
 1. Run `npm run start:dev`
-2. Navigate to `http://localhost/find-tenant/by-domain/your_domain`
+2. Navigate to `http://localhost/find-tenant/by-domain/{your_domain}`
 
 ## Running Tests
 
