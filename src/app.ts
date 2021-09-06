@@ -28,7 +28,7 @@ app.use(logger('dev', {
 }));
 app.use(helmet());
 app.use(cors({
-  origin: 'https://az-tenant-lookup-willdewhurst.vercel.app',
+  origin: process.env.CORS_ORIGIN || 'https://az-tenant-lookup-willdewhurst.vercel.app',
   optionsSuccessStatus: 200
 }));
 app.use(express.json());
