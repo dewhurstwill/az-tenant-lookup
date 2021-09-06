@@ -27,7 +27,10 @@ app.use(logger('dev', {
   }
 }));
 app.use(helmet());
-app.use(cors());
+app.use(cors({
+  origin: 'https://az-tenant-lookup-willdewhurst.vercel.app',
+  optionsSuccessStatus: 200
+}));
 app.use(express.json());
 
 // Adding imported routes to express
