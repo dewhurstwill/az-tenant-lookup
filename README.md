@@ -14,8 +14,9 @@ Ever needed to get the tenantId based on the Azure AD domain? This API makes tha
 ## Prod Use
 
 1. Run `npm run build`
-2. (Optional) Set the PORT environment variable to a different port, defaults to 80
-3. Serve the code `npm run start`
+2. (Optional) Set the FRONTEND_CORS_ORIGIN environment variable to change the frontend origin
+3. (Optional) Set the PORT environment variable to a different port, defaults to 80
+4. Serve the code `npm run start`
 
 <br/>
 
